@@ -1,0 +1,16 @@
+{
+  "npmFileMap": {
+    "bridge-cdn": {
+      "files": [
+        {
+          "path": "app.js",
+          "cdn": "https://cdn.jsdelivr.net/gh/Prodgames/bridge-cdn@main/app.js?token=GHSAT0AAAAAACDYJREKZXFCWDMFLEVLNQG2ZF5S6IA"
+        },
+        {
+          "path": "style.css",
+          "cdn": "https://cdn.jsdelivr.net/gh/Prodgames/bridge-cdn@main/style.css?token=GHSAT0AAAAAACDYJREKYPLFD7VHVCSY3WKQZF5TCMQ"
+        }
+      ]
+    }
+  }
+}
