@@ -3,7 +3,7 @@ function loadCSS() {
   var link = document.createElement("link");
   link.type = "text/css";
   link.rel = "stylesheet";
-  link.href = "./style.css";
+  link.href = "https://cdn.jsdelivr.net/gh/XxProFetxX/prodgames-bridge-cdn/style.css";
   head.appendChild(link);
 }
 
