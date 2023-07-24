@@ -13,19 +13,19 @@ function loadCSS() {
 function injectModal() {
   const random = Math.random();
   var modal = `
-          <label id="btn-open-modal" class="btn hidden" for="modal-1">Show Modal</label>
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal">
-              <label class="modal__bg" for="modal-1"></label>
-              <div class="modal__inner">
-                  <label id="close" class="modal__close" for="modal-1"></label>
-                  <div id="yourcontainer" class="container-iframe">
-                      <iframe class="custom-iframe" scrolling="no" id="youriframe" onload="adjustIframeSize()"
-                      src="https://angelomiosg.com/naves/?v=${random}&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJmaW5hbmNpZXJhLmNvbXBhcnRhbW9zQGdtYWlsLmNvbSIsInJvbGVzIjoiQyIsImlhdCI6MTY3NjIzNjczMiwiZXhwIjoxNjc2MjQwMzMyfQ.9QJsqvepVoqdwZd4ezkhlwEMGkQGfSaiyMNk0l-Zu_Q&idPlayer=1&idClient=2&idGame=1"
-                      width="360" height="740"></iframe>
-                  </div>
-              </div>
-          </div>`;
+            <label id="btn-open-modal" class="btn hidden" for="modal-1">Show Modal</label>
+            <input class="modal-state" id="modal-1" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-1"></label>
+                <div class="modal__inner">
+                    <label id="close" class="modal__close" for="modal-1"></label>
+                    <div id="yourcontainer" class="container-iframe">
+                        <iframe class="custom-iframe" scrolling="no" id="youriframe" onload="adjustIframeSize()"
+                        src="https://angelomiosg.com/naves/?v=${random}&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJmaW5hbmNpZXJhLmNvbXBhcnRhbW9zQGdtYWlsLmNvbSIsInJvbGVzIjoiQyIsImlhdCI6MTY3NjIzNjczMiwiZXhwIjoxNjc2MjQwMzMyfQ.9QJsqvepVoqdwZd4ezkhlwEMGkQGfSaiyMNk0l-Zu_Q&idPlayer=1&idClient=2&idGame=1"
+                        width="360" height="740"></iframe>
+                    </div>
+                </div>
+            </div>`;
   document.body.insertAdjacentHTML(
     "beforeend",
     modal
